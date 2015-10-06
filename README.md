@@ -35,3 +35,8 @@ Enables use of Bootstrap's [progress bar component](http://getbootstrap.com/comp
       </div>
     </div>
     ```
+
+### Caveats
+
+* Only works for integral values of `aria-valuenow` (e.g. `aria-valuenow="60"` will work, `aria-valuenow="60.1"` won't).
+* Only works when the progress bar displays values between 0 and 100 (i.e. `aria-valuemin="0"` and  `aria-valuemax="100"`).
