@@ -6,6 +6,10 @@ Tweaks (with a security and accessibility focus) to the Bootstrap framework.
 Included Hacks
 ==============
 
+Accessible variables
+--------------------
+Bootstrap's default placeholder color (`#999`) doesn't meet WCAG 2.0 AA's [color contrast](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) requirement. Include `accessible-variables.less` to override `@input-color-placeholder` with a darker shade of gray (`#767676`).
+
 Progress bar
 ------------
 
