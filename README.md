@@ -5,7 +5,7 @@ Bootstrap Hacks
 ![Bower version](https://img.shields.io/bower/v/bootstrap-hacks.svg)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.webjars.npm/bootstrap-hacks/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.webjars.npm/bootstrap-hacks)
 
-Tweaks (with a security and accessibility focus) to the Bootstrap framework.
+Tweaks (with a security and accessibility focus) for Bootstrap version 3.
 
 Installation
 ============
@@ -60,7 +60,7 @@ Enables use of Bootstrap's [progress bar component](http://getbootstrap.com/comp
 Prevent zoom on focus on iOS
 ----------------------------
 
-iOS can automatically zoom in when a form input element receives focus. Developers often disable this behaviour by setting restrictive values for the `viewport` meta element. This can [negatively affects accessibility](https://www.w3.org/TR/mobile-accessibility-mapping/#zoom-magnification):
+iOS can automatically zoom in when a form input element receives focus. Developers often disable this behaviour by setting restrictive values for the `viewport` meta element. This can [negatively affect accessibility](https://www.w3.org/TR/mobile-accessibility-mapping/#zoom-magnification):
 
 > Ensure that the browser pinch zoom is not blocked by the page's viewport meta element so that it can be used to zoom the page to 200%. Restrictive values for user-scalable and maximum-scale attributes of this meta element should be avoided.
 
