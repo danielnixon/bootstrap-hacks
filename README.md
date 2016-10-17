@@ -2,12 +2,14 @@ Bootstrap Hacks
 ===============
 [![Build Status](https://travis-ci.org/danielnixon/bootstrap-hacks.svg?branch=master)](https://travis-ci.org/danielnixon/bootstrap-hacks)
 [![npm version](https://img.shields.io/npm/v/bootstrap-hacks.svg)](https://www.npmjs.com/package/bootstrap-hacks)
+![Bower version](https://img.shields.io/bower/v/bootstrap-hacks.svg)
 
 Tweaks (with a security and accessibility focus) to the Bootstrap framework.
 
 Installation
 ============
 * Install with npm: `npm install bootstrap-hacks`
+* Install with Bower: `bower install bootstrap-hacks`
 * Add a WebJar dependency to build.sbt: `libraryDependencies += "org.webjars.npm" % "bootstrap-hacks" % "0.1.0"`
 
 Included Hacks
