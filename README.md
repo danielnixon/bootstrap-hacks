@@ -10,7 +10,7 @@ Installation
 ============
 * Install with npm: `npm install bootstrap-hacks`
 * Install with Bower: `bower install bootstrap-hacks`
-* Add a WebJar dependency to build.sbt: `libraryDependencies += "org.webjars.npm" % "bootstrap-hacks" % "0.1.0"`
+* Add a WebJar dependency to build.sbt: `libraryDependencies += "org.webjars.npm" % "bootstrap-hacks" % "0.2.0"`
 
 Included Hacks
 ==============
