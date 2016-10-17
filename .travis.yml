@@ -1,5 +1,3 @@
 language: node_js
-install: npm install -g less
-script:
-  - lessc progressbar.less > progressbar.css
-  - lessc -x progressbar.less > progressbar.min.css
+install: npm install
+script: npm run-script compile
