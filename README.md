@@ -5,6 +5,11 @@ Bootstrap Hacks
 
 Tweaks (with a security and accessibility focus) to the Bootstrap framework.
 
+Installation
+============
+* Install with npm: `npm install bootstrap-hacks`
+* Add a WebJar dependency to build.sbt: `libraryDependencies += "org.webjars.npm" % "bootstrap-hacks" % "0.1.0"`
+
 Included Hacks
 ==============
 
