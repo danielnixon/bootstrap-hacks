@@ -20,6 +20,8 @@ Accessible variables
 --------------------
 Bootstrap's default placeholder color (`#999`) doesn't meet WCAG 2.0 AA's [color contrast](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) requirement. Include `accessible-variables.less` to override `@input-color-placeholder` with a darker shade of gray (`#767676`).
 
+Bootstrap's default colors for `@brand-primary`, `@brand-success`, `@brand-danger`, `@state-info-text` and `@state-danger-text` do not meet WCAG 2.0 AA's [color contrast](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) requirement. They are replaced with accessible alternatives.
+
 Progress bar
 ------------
 
@@ -54,3 +56,12 @@ Enables use of Bootstrap's [progress bar component](http://getbootstrap.com/comp
 
 * Only works for integral values of `aria-valuenow` (e.g. `aria-valuenow="60"` will work, `aria-valuenow="60.1"` won't).
 * Only works when the progress bar displays values between 0 and 100 (i.e. `aria-valuemin="0"` and  `aria-valuemax="100"`).
+
+Prevent zoom on focus on iOS
+----------------------------
+
+iOS can automatically zoom in when a form input element receives focus. Developers often disable this behaviour by setting restrictive values for the `viewport` meta element. This can [negatively affects accessibility](https://www.w3.org/TR/mobile-accessibility-mapping/#zoom-magnification):
+
+> Ensure that the browser pinch zoom is not blocked by the page's viewport meta element so that it can be used to zoom the page to 200%. Restrictive values for user-scalable and maximum-scale attributes of this meta element should be avoided.
+
+Instead, include `prevent-ios-zoom-on-focus.less` to set the font size of form inputs to `16px` when in the extra small responsive breakpoint. This will prevent iOS from zooming automatically when an input receives focus but continue to allow users to pinch to zoom.
