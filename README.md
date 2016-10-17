@@ -17,7 +17,7 @@ Enables use of Bootstrap's [progress bar component](http://getbootstrap.com/comp
 
 ### Usage
 
-1. Include progressbar.less (or progressbar.css) in your project however you like.
+1. Include progressbar.less in your project however you like.
 2. Remove the inline style attribute from your progress bars; progressbar.less will style them appropriately.
 
     Before:
