@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-hacks",
+  "description": "Tweaks (with a security and accessibility focus) to the Bootstrap framework.",
+  "authors": [
+    "Daniel Nixon"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bootstrap",
+    "accessibility",
+    "security"
+  ],
+  "homepage": "https://github.com/danielnixon/bootstrap-hacks",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
