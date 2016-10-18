@@ -13,10 +13,14 @@ Installation
 ============
 * Install with npm: `npm install bootstrap-hacks`
 * Install with Bower: `bower install bootstrap-hacks`
-* Add a WebJar dependency to build.sbt: `libraryDependencies += "org.webjars.npm" % "bootstrap-hacks" % "0.2.0"`
+* Add a WebJar dependency to build.sbt: `libraryDependencies += "org.webjars.npm" % "bootstrap-hacks" % "0.3.0"`
 
 Included Hacks
 ==============
+
+Accessible links
+----------------
+Bootstrap removes underline styles for links. This is a [failure of Success Criterion 1.4.1 due to creating links that are not visually evident without color vision](https://www.w3.org/TR/WCAG20-TECHS/F73.html). Include `accessible-links.less` to restore the default underline styles.
 
 Accessible variables
 --------------------
