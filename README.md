@@ -4,6 +4,8 @@ Bootstrap Hacks
 [![npm version](https://img.shields.io/npm/v/bootstrap-hacks.svg)](https://www.npmjs.com/package/bootstrap-hacks)
 ![Bower version](https://img.shields.io/bower/v/bootstrap-hacks.svg)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.webjars.npm/bootstrap-hacks/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.webjars.npm/bootstrap-hacks)
+[![dependencies Status](https://david-dm.org/danielnixon/bootstrap-hacks/status.svg)](https://david-dm.org/danielnixon/bootstrap-hacks)
+[![devDependencies Status](https://david-dm.org/danielnixon/bootstrap-hacks/dev-status.svg)](https://david-dm.org/danielnixon/bootstrap-hacks?type=dev)
 
 Tweaks (with a security and accessibility focus) for Bootstrap version 3.
 
