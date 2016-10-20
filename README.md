@@ -15,6 +15,25 @@ Installation
 * Install with Bower: `bower install bootstrap-hacks`
 * Add a WebJar dependency to build.sbt: `libraryDependencies += "org.webjars.npm" % "bootstrap-hacks" % "0.4.0"`
 
+Usage
+=====
+
+LESS
+----
+
+```
+  // Import Bootstrap itself.
+  @import ".../bootstrap/less/bootstrap.less";
+  
+  // Then import bootstrap-hacks.
+  @import ".../bootstrap-hacks/less/bootstrap-hacks.less";
+```
+
+CSS
+---
+
+You can find pre-compiled CSS in `dist/css/bootstrap-hacks.css`. It includes all hacks _except_ accessible varibles.
+
 Included Hacks
 ==============
 
