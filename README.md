@@ -6,6 +6,7 @@ Bootstrap Hacks
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.webjars.npm/bootstrap-hacks/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.webjars.npm/bootstrap-hacks)
 [![dependencies Status](https://david-dm.org/danielnixon/bootstrap-hacks/status.svg)](https://david-dm.org/danielnixon/bootstrap-hacks)
 [![devDependencies Status](https://david-dm.org/danielnixon/bootstrap-hacks/dev-status.svg)](https://david-dm.org/danielnixon/bootstrap-hacks?type=dev)
+[![Dependency Status](https://dependencyci.com/github/danielnixon/bootstrap-hacks/badge)](https://dependencyci.com/github/danielnixon/bootstrap-hacks)
 
 Tweaks (with a security and accessibility focus) for Bootstrap version 3.
 
