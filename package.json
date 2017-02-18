@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-hacks",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Tweaks (with a security and accessibility focus) to the Bootstrap framework.",
   "scripts": {
     "compile": "lessc ./less/bootstrap-hacks-css.less ./dist/css/bootstrap-hacks.css"
