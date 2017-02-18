@@ -1,0 +1,10 @@
+// Bootstrap's default placeholder color (#999) doesn't meet WCAG 2.0 AA contrast ratio requirement.
+$input-color-placeholder:        #767676 !default;
+
+// Override default Bootstrap colors to meet WCAG 2.0 AA.
+// See http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html
+$brand-primary:         #125b9a !default;
+$brand-success:         #0b670b !default;
+$brand-danger:          #aa2420 !default;
+$state-info-text:       #3a87ad !default;
+$state-danger-text:     #b94a48 !default;

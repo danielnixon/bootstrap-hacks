@@ -1,0 +1,9 @@
+@mixin generateWidths($min, $max, $i) {
+    .progress-bar[aria-valuemax="#{$max}"][aria-valuemin="#{$min}"][aria-valuenow="#{$i}"] {
+        width: (($i - $min) * 100) / ($max - $min) * 1%;
+    }
+}
+
+@for $i from 0 through 100 {
+  @include generateWidths(0, 100, $i);
+}
