@@ -14,7 +14,7 @@ Installation
 ============
 * Install with npm: `npm install bootstrap-hacks`
 * Install with Bower: `bower install bootstrap-hacks`
-* Add a WebJar dependency to build.sbt: `libraryDependencies += "org.webjars.npm" % "bootstrap-hacks" % "0.4.0"`
+* Add a WebJar dependency to build.sbt: `libraryDependencies += "org.webjars.npm" % "bootstrap-hacks" % "0.5.0"`
 
 Usage
 =====
@@ -28,6 +28,21 @@ LESS
   
   // Then import bootstrap-hacks.
   @import ".../bootstrap-hacks/less/bootstrap-hacks.less";
+```
+
+Sass
+----
+For use with the [official Sass port of Bootstrap 3](https://github.com/twbs/bootstrap-sass).
+
+```
+  // Import accessible variables first.
+  @import ".../bootstrap-hacks/accessible-variables";
+
+  // Then import Bootstrap itself.
+  @import ".../bootstrap-sass/assets/stylesheets/_bootstrap";
+  
+  // Then import the rest of bootstrap-hacks.
+  @import ".../bootstrap-hacks/sass/bootstrap-hacks";
 ```
 
 CSS
