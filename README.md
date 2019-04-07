@@ -10,6 +10,8 @@ Bootstrap Hacks
 
 Tweaks (with a security and accessibility focus) for Bootstrap version 3.
 
+No longer maintained. See [oaf-bootstrap-4](https://github.com/danielnixon/oaf-bootstrap-4) for a similar library for Bootstrap 4.
+
 Installation
 ============
 * Install with npm: `npm install bootstrap-hacks`
